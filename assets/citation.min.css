@@ -1450,7 +1450,7 @@ ul.videos li {
 }
 .glp-wrapper section.mod-03 {
     min-height: 788px;
-    background-image: url(images/mod-03-bg-v2.jpg?2);
+    /* background-image: url(images/mod-03-bg-v2.jpg?2); */
     background-repeat: no-repeat;
     background-size: cover;
 }

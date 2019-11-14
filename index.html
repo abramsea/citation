@@ -185,16 +185,14 @@
 
                 
                 <section class="mod-03">
-                    <div class="inside">
-                        <div class="copy">
-                            <h2>
-                                Кинотеатральный беспроводной<br />объемный звук                    </h2>
-                            <p class="text-center">
-                                Получите настоящий объемный звук домашнего кинотеатра без проводов. Настройте систему 5.1 для невероятного звучания фильмов, спорта и игр.                    </p>
-                                                    <div class="iframe-wrapper">
-                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ehLdBShLf0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                                        </div>
+                    <div>
+                            <!-- <h2>
+                                Кинотеатральный беспроводной <br> объемный звук </h2> -->
+                            <!-- <p class="text-center">
+                                Получите настоящий объемный звук домашнего кинотеатра без проводов. Настройте систему 5.1 для невероятного звучания фильмов, спорта и игр.                    </p> -->
+
+                                    <iframe class="video-iframe" src="https://www.youtube.com/embed/ehLdBShLf0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                                     </div>
                 </section>
 
@@ -733,10 +731,19 @@
                 text-align: justify !important;
             }
 
+            .video-iframe {
+                width: 100%;
+                height: 650px;
+            }
+
             @media screen and (max-width: 800px) {
                 .flex-row {
                     flex-direction: column !important;
                 }
+                .video-iframe {
+                width: 100%;
+                height: 400px;
+            }
             }
         </style>
     </body>
