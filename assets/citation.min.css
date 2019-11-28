@@ -1591,7 +1591,23 @@ ul.videos li {
 }
 .glp-wrapper .iframe-wrapper {
     width: 100%}
-}@media (max-width:960px) and (min-width:700px) {
+
+    .intro p {
+        font-size: 20px !important;
+    }
+
+    .section-title {
+        font-size: 22px !important;
+    }
+
+    .text-center {
+        font-size: 16px !important;
+    }
+}
+
+
+
+@media (max-width:960px) and (min-width:700px) {
     .tbreak {
     display: block;
 }
